@@ -1,4 +1,4 @@
-# To catagorize the leximes under the below catagory.
+# To categorize the lexemes under the below category.
 # Keywords 
 # Operators
 # Identifier = (letter)(letter | digit)* 

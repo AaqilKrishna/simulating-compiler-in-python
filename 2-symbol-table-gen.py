@@ -5,7 +5,6 @@
 # Simple definitions and function calls
 
 import pandas as pd
-import re
 from typing import List
 
 class SymbolTable:
