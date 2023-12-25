@@ -24,7 +24,7 @@ class IntermediateCodeGenerator :
         while len(self.statement) > 1 :
             self.compare()
             if len(self.statement) == 1 :
-                self.displayOutput(filepath='output/4-inter-code.txt',)
+                self.displayOutput(filepath='output/4-intermediate-code.txt',)
                 return True
         if len(self.statement) != 1 :
             return False
@@ -69,7 +69,7 @@ class IntermediateCodeGenerator :
             f.write(data)
 
 
-generator = IntermediateCodeGenerator('input/4-inter-code.txt')
+generator = IntermediateCodeGenerator('input/4-intermediate-code.txt')
 result = generator.codeGenerator()
 
 if result :
