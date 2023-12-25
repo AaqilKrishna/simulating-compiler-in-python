@@ -1,0 +1,8 @@
+t1 = a*b
+t2 = t1*c
+t3 = t2-d
+t4 = t3/g
+t5 = t4+a
+t6 = t5+b
+t7 = t6+c
+t8 = t7+d
